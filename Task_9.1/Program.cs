@@ -1,4 +1,5 @@
-﻿int Prompt (string message)
+﻿//Задайте значение N. Напишите программу, которая выведет все натуральные числа в промежутке от N до 1. Выполнить с помощью рекурсии.
+int Prompt (string message)
 {
     System.Console.Write(message);
     string value = Console.ReadLine();

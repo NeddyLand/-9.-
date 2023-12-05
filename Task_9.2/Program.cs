@@ -1,4 +1,5 @@
-﻿int Prompt (string message)
+﻿//Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N. Выполнить с помощью рекурсии.
+int Prompt (string message)
 {
     System.Console.Write(message);
     string value = Console.ReadLine();

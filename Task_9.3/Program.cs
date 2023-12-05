@@ -1,4 +1,5 @@
-﻿uint Prompt(string message)
+﻿//Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
+uint Prompt(string message)
 {
     System.Console.Write(message);
     string value = Console.ReadLine();
